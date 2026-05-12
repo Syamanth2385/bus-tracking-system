@@ -1,0 +1,161 @@
+/* Global Page Settings */
+.page-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 2rem;
+}
+
+/* Power BI Dashboard Exact Layout */
+.pbi-dashboard-container {
+  background-color: #e5e5e5;
+  padding: 12px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.pbi-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Row Heights */
+.pbi-row.top-row {
+  height: 280px;
+}
+
+.pbi-row.mid-row {
+  height: 110px;
+}
+
+.pbi-row.bot-row {
+  height: 140px;
+}
+
+/* Columns */
+.pbi-col-left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pbi-col-mid {
+  flex: 2.5;
+}
+
+.pbi-col-right {
+  flex: 2;
+}
+
+.pbi-card-col {
+  flex: 1;
+}
+
+/* Card Styling */
+.pbi-card {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.pbi-card-title {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.pbi-card-subtitle {
+  font-size: 0.6rem;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* Top Left Metrics */
+.pbi-metric-large {
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  margin: auto;
+  letter-spacing: -1px;
+}
+
+/* Gauge Chart Area */
+.pbi-gauge-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.pbi-gauge-text {
+  position: absolute;
+  bottom: 5px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Middle Row Metric Cards */
+.pbi-metric-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.pbi-metric-value-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: auto;
+}
+
+.pbi-metric-value {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #222;
+}
+
+.pbi-metric-icon {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+/* Definitions */
+.pbi-def-text {
+  font-size: 0.7rem;
+  color: #666;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+/* Charts */
+.pbi-chart-container {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}

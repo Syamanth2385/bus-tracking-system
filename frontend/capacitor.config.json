@@ -1,0 +1,5 @@
+{
+  "appId": "com.bustracking.app",
+  "appName": "BusTracking",
+  "webDir": "dist"
+}
