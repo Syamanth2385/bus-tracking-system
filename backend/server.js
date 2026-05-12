@@ -27,10 +27,7 @@ const alertRoutes = require('./routes/alertRoutes');
 const statsRoutes = require('./routes/statsRoutes');
 const runSimulation = require('./simulation');
 
-// Basic route
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
+
 
 app.get('/api/status', (req, res) => {
   const isConnected = require('mongoose').connection.readyState === 1;
